@@ -1,7 +1,9 @@
-import ReactDOM from "react-dom/client";
+function App() {
+  return (
+    <div>
+      <h2>Let's get started!</h2>
+    </div>
+  );
+}
 
-import "./index.css";
-import App from "./App";
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+export default App;
